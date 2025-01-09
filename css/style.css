@@ -75,7 +75,7 @@ h1, h2, h3{
 
 /* header */
 #header{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/header-banner.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/dan-cristian-padure-ZmrNTMZJfao-unsplash.jpg') center/cover no-repeat;
     justify-content: flex-start;
     align-items: flex-end;
 }
@@ -225,7 +225,7 @@ h1, h2, h3{
 }
 
 #insta{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/insta-pic.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/35mm_movie_negative.jpg') center/cover no-repeat fixed;
     min-height: 65vh;
 }
 #insta .title h2{
@@ -336,10 +336,15 @@ h1, h2, h3{
     }
     .contact-content{
         flex-direction: row;
+        height: 100vh;
     }
     .contact-right{
         padding-left: 3rem;
         width: 50%;
+        height: 95%;
+    }
+    .contact-right img{
+        height: 100%;
     }
     .contact-left{
         width: 50%;
